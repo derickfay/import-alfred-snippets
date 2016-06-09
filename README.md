@@ -3,6 +3,8 @@ Import snippets to Alfred 3 from a .csv file
 
 The csv needs to be named snippets.csv and must contain exactly three fields: the snippet name, the abbreviation, and the snippet text itself.
 
+```bash
+
 "any","Pan","PropTypes.any"
 "array","Parr","PropTypes.array"
 "arrayOf","Paro","PropTypes.arrayOf()"
@@ -18,6 +20,8 @@ The csv needs to be named snippets.csv and must contain exactly three fields: th
 "oneOfType","Pot","PropTypes.oneOfType"
 "shape","Psh","PropTypes.shape({})"
 "string","Pst","PropTypes.string"
+
+```
 
 when the script is run, it will generate individual files with names like *any [8760badff15c594b6308564f4460e7].json* , where the text in brackets is a random string generated as the uid (used by Alfred to track usage)
 
