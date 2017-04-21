@@ -28,3 +28,5 @@ when the script is run, it will generate individual files with names like *any [
 Quit Alfred 3, move the newly generated files to .../Alfred.alfredpreferences/snippets/*groupname* where groupname is the group where you want the snippets.  Creating a new folder will create a new group in Alfred.
 
 **DISCLAIMERS**: This is largely untested, and doesn't escape any special characters at the moment.  As far as I can tell, it causes no problems for Alfred, but you use it at your own risk.
+
+Released under MIT License
