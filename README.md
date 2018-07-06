@@ -36,7 +36,7 @@ To run the script, open a Terminal window in the same directory where you put th
 
 If all goes well, you should then have individual files in the same directory with names like *any [8760badff15c594b6308564f4460e7].json* , where the text in brackets is a random string generated as the uid (used by Alfred to track usage).
 
-Move the newly generated files to .../Alfred.alfredpreferences/snippets/*groupname* where groupname is the group where you want the snippets.  Creating a new folder will create a new group in Alfred.  After a few seconds, the new snippets willl appear in Alfred's preferences.
+Move the newly generated files to .../Alfred.alfredpreferences/snippets/*groupname* where groupname is the group where you want the snippets.  Creating a new folder will create a new group in Alfred.  After a few seconds, the new snippets willl appear in Alfred's preferences.  (To view this folder in Finder, you'll need to find your Alfred.alfredpreferences file
 
 You can then delete or replace **snippets.csv** and start again.
 
