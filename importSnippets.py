@@ -42,6 +42,9 @@ def write_csv_to_alfred(csvfile) -> None:
             print(e)
 
     zipname = f'{sys.argv[2]}.alfredsnippets' if len(sys.argv) > 2 else 'Snippets.alfredsnippets'
+    if os.path.exists(zipname):
+        os.remove(zipname)
+
     with ZipFile(zipname, 'w') as zf:
         for pth in builddir.iterdir():
             zf.write(pth, arcname=pth.name)
