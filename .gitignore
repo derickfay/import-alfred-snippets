@@ -1,0 +1,4 @@
+.DS_Store
+*.alfredsnippets
+build/*
+__pycache__/*
