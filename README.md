@@ -1,5 +1,5 @@
 # import-alfred-snippets
-Import snippets to Alfred 3 from a .csv file
+Import snippets to Alfred 3 or 4 from a .csv file
 
 The csv needs to be named snippets.csv and must contain exactly three fields: the snippet name, the abbreviation, and the snippet text itself.  For example:
 
